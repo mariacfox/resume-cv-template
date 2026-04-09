@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Converts resume markdown files to PDF using pandoc (markdown → HTML)
 # and WeasyPrint (HTML → PDF), preserving all CSS styling.
+# Built with Claude (https://claude.ai) by Anthropic.
 #
 # Usage:
 #   ./build_resume.sh                    # convert all *.md files in the directory

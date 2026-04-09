@@ -38,7 +38,7 @@ strong {
 
 /* Links — a[href] matches WeasyPrint's built-in selector specificity */
 a[href] {
-    color: #10A4A6;
+    color: #2563EB;
     text-decoration: none;
 }
 

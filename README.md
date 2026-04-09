@@ -40,9 +40,13 @@ Edit `resume-style.css` to change fonts, colors, spacing, or page margins. The `
 The stylesheet uses:
 - `letter` page size with `0.5in` margins
 - Helvetica Neue / Arial as the base font
-- A teal accent color (`#10A4A6`) for hyperlinks
+- A blue accent color (`#2563EB`) for hyperlinks — change the `color` value in the `a[href]` rule to use any color you like
 - Section headers underlined with a light gray rule
 
 ## How it works
 
 `build_resume.sh` pipes each Markdown file through pandoc to produce an HTML fragment, wraps it in a minimal HTML document referencing `resume-style.css`, then passes that to WeasyPrint to render a pixel-accurate PDF. This approach preserves all CSS including `@page` rules, which standard browser print dialogs often override.
+
+---
+
+Built with [Claude](https://claude.ai) by Anthropic.
